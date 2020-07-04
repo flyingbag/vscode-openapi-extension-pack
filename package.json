@@ -1,0 +1,30 @@
+{
+    "name": "openapi-extension-pack",
+    "displayName": "OpenAPI (Swagger) Extension Pack",
+    "version": "1.0.0",
+    "publisher": "flyingbag",
+    "description": "OpenAPI Extension Pack for Visual Studio Code",
+    "author": {
+        "name": "Gao Yang"
+    },
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/flyingbag/vscode-openapi-extension-pack.git"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "keywords": [
+        "openapi",
+        "swagger",
+        "lint"
+    ],
+    "extensionPack": [
+        "42Crunch.vscode-openapi",
+        "Arjun.swagger-viewer",
+        "stoplight.spectral"
+    ]
+}
